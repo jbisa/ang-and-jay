@@ -15,7 +15,7 @@ export default class Countdown extends React.Component {
 
   getCountdownData() {
     const now = new Date().getTime();
-    const countDownDate = new Date('April 7, 2018 16:00:00').getTime();
+    const countDownDate = new Date('April 7, 2018 15:00:00').getTime();
     const distance = countDownDate - now;
     return {
       'now': now,
@@ -57,7 +57,7 @@ export default class Countdown extends React.Component {
     return (
       <div ref="myRef">
         {this.state.distance > 0 ? (
-          <blockquote>{this.state.days} Days | {this.state.hours} Hours | {this.state.minutes} Minutes | {this.state.seconds} Seconds</blockquote>
+          <blockquote>{this.state.days} Days &#183; {this.state.hours} Hours &#183; {this.state.minutes} Minutes &#183; {this.state.seconds} Seconds</blockquote>
           /*<blockquote>{this.state.days} Days to go!</blockquote>*/
         ) : (
           <blockquote>TODAY IS WEDDING DAY!!!</blockquote>

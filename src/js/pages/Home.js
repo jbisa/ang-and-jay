@@ -10,10 +10,10 @@ export default class Home extends React.Component {
         <div class="flex-center position-ref full-height">
           <div class="content curved-edges">
             <div class="content-padding">
-              <div class="title m-b-md">
+              <div class="title m-b-md cursive-font">
                 Ang & Jay
               </div>
-              <h1>4/7/2018 | The Foundry | Queens, NY</h1>
+              <h2 class="home-h2">4/7/2018 | The Foundry | Queens, NY</h2>
               <Countdown />
             </div>
           </div>

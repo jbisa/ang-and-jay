@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Route, NavLink, Switch } from "react-router-dom";
-import AboutUs from "./AboutUs";
+import OurStory from "./OurStory";
 import Accomodations from "./Accomodations";
 import CeremonyReception from "./CeremonyReception";
 import Header from "../components/Header";
@@ -21,7 +21,7 @@ export default class Layout extends React.Component {
         <Header />
         <div>
           <Route exact path='/' component={Home} />
-          <Route path='/about-us' component={AboutUs} />
+          <Route path='/our-story' component={OurStory} />
           <Route path='/ceremony-reception' component={CeremonyReception} />
           <Route path='/accomodations' component={Accomodations} />
           <Route path='/travel' component={Travel} />
