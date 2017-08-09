@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
-    "start": "node webpack.config.js"
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "author": "Jay Bisa",
   "license": "ISC",
