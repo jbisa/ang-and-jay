@@ -10,6 +10,11 @@ html, body {
     color: #191919;
 }
 
+img {
+  width: 100%;
+  max-width: 600px;
+}
+
 .text-font {
   font-family: 'Poiret One', cursive;
 }

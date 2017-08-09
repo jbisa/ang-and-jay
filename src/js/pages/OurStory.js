@@ -1,8 +1,16 @@
 import React from "react";
+import Slider from "react-slick"
 
 export default class OurStory extends React.Component {
   render() {
+    const settings = {
+      fade: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
     return (
+      <div>
       <div class="flex-center position-ref extra-margin-top">
         <div class="content curved-edges">
           <div class="content-padding text-width">
@@ -29,6 +37,16 @@ export default class OurStory extends React.Component {
             </p>
           </div>
         </div>
+      </div>
+      <div class="flex-center"><img src="../../images/us/ang_kid.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/jay_kid.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/ang_grad.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/jay_ang_desi.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/proposal.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/ca_wedding.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/france_wedding.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/venice.jpg"/></div>
+      <div class="flex-center"><img src="../../images/us/yankee_stadium.jpg"/></div>
       </div>
     );
   }
