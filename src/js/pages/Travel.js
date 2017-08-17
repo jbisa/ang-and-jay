@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 export default class Travel extends React.Component {
   render() {
     return (
+      <div>
+      <Header />
       <div class="flex-center position-ref full-height">
         <div class="content curved-edges">
           <div class="content-padding text-width">
@@ -10,6 +13,7 @@ export default class Travel extends React.Component {
             <p>...Coming soon...</p>
           </div>
         </div>
+      </div>
       </div>
     );
   }

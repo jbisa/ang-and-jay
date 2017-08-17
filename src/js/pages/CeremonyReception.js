@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 export default class CeremonyReception extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         <div class="flex-center position-ref full-height">
           <div class="content curved-edges">
             <div class="content-padding text-width">

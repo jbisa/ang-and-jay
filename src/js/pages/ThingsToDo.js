@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 export default class ThingsToDo extends React.Component {
   render() {
     return (
+      <div>
+      <Header />
       <div class="flex-center position-ref extra-margin-top">
         <div class="content curved-edges">
           <div class="content-padding text-width">
@@ -102,6 +105,7 @@ export default class ThingsToDo extends React.Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   }

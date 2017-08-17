@@ -6,7 +6,7 @@ export default class Header extends React.Component {
     return (
       <div class="content flex-center position-ref header text-font">
         <ul>
-            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/home">Home</NavLink></li>
             <li><NavLink to="our-story">Our Story</NavLink></li>
             <li class="dropdown">
                 <NavLink to="ceremony-reception" class="dropbtn">Details</NavLink>
