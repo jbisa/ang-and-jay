@@ -1,8 +1,16 @@
 import React from "react";
 import Header from "../components/Header";
-import Slider from "react-slick"
+import Slider from "react-slick";
+import Session from "../session/session";
 
 export default class OurStory extends React.Component {
+  constructor(props) {
+    super(props);
+    if (Session.getCodeEntered !== '123') {
+      this.props.history.push("/");
+    }
+  }
+
   render() {
     const settings = {
       fade: true,

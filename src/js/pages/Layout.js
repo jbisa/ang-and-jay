@@ -30,7 +30,7 @@ export default class Layout extends React.Component {
           <Route path='/photos' component={Photos} />
           <Route path='/rsvp' component={RSVP} />
         </div>
-        <Music />
+        {/*<Music />*/}
       </div>
     );
   }
