@@ -20,7 +20,7 @@ module.exports = {
   },
   output: {
     path: __dirname + "/src",
-    filename: "[hash].client.min.js"
+    filename: "client.min.js"
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
