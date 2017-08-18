@@ -1,7 +1,5 @@
 import React from "react";
 import Footer from "../components/Footer";
-import { withRouter } from "react-router-dom";
-import Session from "../session/session";
 
 export default class Login extends React.Component {
   constructor(props) {
