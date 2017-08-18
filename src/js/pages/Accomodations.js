@@ -2,6 +2,13 @@ import React from "react";
 import Header from "../components/Header";
 
 export default class Accomodations extends React.Component {
+  constructor(props) {
+    super(props);
+    if (window.sessionStorage.getItem("codeEntered") !== "528926") {
+      this.props.history.push("/home");
+    }
+  }
+
   render() {
     return (
       <div>

@@ -2,12 +2,11 @@ import React from "react";
 import Countdown from "../components/Countdown";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Session from "../session/session";
 
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
-    if (Session.getCodeEntered !== '123') {
+    if (window.sessionStorage.getItem("codeEntered") !== "528926") {
       this.props.history.push("/");
     }
   }

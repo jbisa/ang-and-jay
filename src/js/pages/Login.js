@@ -4,16 +4,21 @@ import { withRouter } from "react-router-dom";
 import Session from "../session/session";
 
 export default class Login extends React.Component {
+  constructor(props) {
+    super(props);
+    if (window.sessionStorage.getItem("codeEntered") === "528926") {
+      this.props.history.push("/home");
+    }
+  }
+
   enterSite(e) {
     e.preventDefault();
     if (this.refs.code !== null) {
     	var input = this.refs.code;
 			var inputValue = input.value;
-      Session.setCodeEntered(inputValue);
-      if (inputValue === "123") {
+      window.sessionStorage.setItem("codeEntered", inputValue);
+      if (inputValue === "528926") {
         this.props.history.push("/home");
-      } else {
-        alert('SORRY');
       }
     }
   }
@@ -31,8 +36,9 @@ export default class Login extends React.Component {
 
               <p>Please enter the code you received via email to enter the site.</p>
               <div>
-                <input type="text" ref="code" placeholder="Code" />
+                <input class="input-field" type="text" ref="code" placeholder="Site Code" />
                 <input
+                  class="button"
                   type="button"
                   value="Enter Site"
                   onClick={this.enterSite.bind(this)}

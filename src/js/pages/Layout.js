@@ -20,7 +20,7 @@ export default class Layout extends React.Component {
       <div>
         <div>
           <Route exact path='/' component={Login} />
-          <Route exact path='/home' component={Home} />
+          <Route path='/home' component={Home} />
           <Route path='/our-story' component={OurStory} />
           <Route path='/ceremony-reception' component={CeremonyReception} />
           <Route path='/accomodations' component={Accomodations} />
@@ -30,7 +30,7 @@ export default class Layout extends React.Component {
           <Route path='/photos' component={Photos} />
           <Route path='/rsvp' component={RSVP} />
         </div>
-        {/*<Music />*/}
+        <Music />
       </div>
     );
   }

@@ -1,12 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import Slider from "react-slick";
-import Session from "../session/session";
 
 export default class OurStory extends React.Component {
   constructor(props) {
     super(props);
-    if (Session.getCodeEntered !== '123') {
+    if (window.sessionStorage.getItem("codeEntered") !== "528926") {
       this.props.history.push("/");
     }
   }
