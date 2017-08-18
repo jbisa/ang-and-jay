@@ -2,6 +2,9 @@
   "name": "ang-and-jay",
   "version": "1.0.0",
   "description": "Ang and Jay wedding website.",
+  "engines": {
+    "node": "8.3.0"
+  },
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
