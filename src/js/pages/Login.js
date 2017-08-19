@@ -31,16 +31,10 @@ export default class Login extends React.Component {
                 Ang & Jay
               </div>
               <h2 class="home-h2">We're getting married!</h2>
-
-              <p>Please enter the code you received via email to enter the site.</p>
+              <p>Please enter the six digit code you received to enter the site.</p>
               <div>
                 <input class="input-field" type="text" ref="code" placeholder="Site Code" />
-                <input
-                  class="button"
-                  type="button"
-                  value="Enter Site"
-                  onClick={this.enterSite.bind(this)}
-                />
+                <button class="button" type="submit" onClick={this.enterSite.bind(this)}>Enter Site</button>
               </div>
             </div>
           </div>
