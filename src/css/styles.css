@@ -317,6 +317,14 @@ ol {
   margin-top: -10px;
 }
 
+.us-image {
+  margin-bottom: 25px;
+}
+
+.rounded-image {
+  border-radius: 25px;
+}
+
 /* Navbar animations */
 .slide-appear {
   opacity: 0;

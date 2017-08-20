@@ -46,7 +46,7 @@ export default class Layout extends React.Component {
           <Route path='/rsvp' component={TransitionedPage(RSVP)} />
           <Route component={TransitionedPage(PageNotFound)} />
         </Switch>
-        <Music />
+        {/* <Music /> */}
       </div>
     );
   }

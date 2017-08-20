@@ -45,15 +45,15 @@ export default class OurStory extends React.Component {
           </div>
         </div>
       </div>
-      <div class="flex-center"><img src="../../images/us/ang_kid.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/jay_kid.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/ang_grad.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/jay_ang_desi.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/proposal.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/ang_jay_wedding.JPG"/></div>
-      <div class="flex-center"><img src="../../images/us/venice.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/ca_wedding.jpg"/></div>
-      <div class="flex-center"><img src="../../images/us/yankee_stadium.jpg"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/ang_kid.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/jay_kid.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/ang_grad.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/jay_ang_desi.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/proposal.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/ang_jay_wedding.JPG" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/venice.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/ca_wedding.jpg" class="rounded-image"/></div>
+      <div class="flex-center us-image"><img src="../../images/us/yankee_stadium.jpg" class="rounded-image"/></div>
       </div>
     );
   }
