@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
 import Slider from "react-slick";
 
 export default class OurStory extends React.Component {
@@ -19,7 +18,6 @@ export default class OurStory extends React.Component {
     };
     return (
       <div>
-      <Header />
       <div class="flex-center position-ref extra-margin-top">
         <div class="content curved-edges">
           <div class="content-padding text-width">

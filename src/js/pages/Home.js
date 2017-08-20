@@ -1,7 +1,5 @@
 import React from "react";
 import Countdown from "../components/Countdown";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -14,7 +12,6 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <Header />
         <div class="flex-center position-ref full-height">
           <div class="content curved-edges">
             <div class="content-padding">
@@ -26,7 +23,6 @@ export default class Home extends React.Component {
             </div>
           </div>
         </div>
-      <Footer />
     </div>
     );
   }
