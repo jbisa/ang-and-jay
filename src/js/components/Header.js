@@ -1,23 +1,23 @@
 import React from "react";
-import { Route, NavLink, Switch } from "react-router-dom";
+import { Route, Link, Switch } from "react-router-dom";
 
 export default class Header extends React.Component {
   render() {
     return (
       <div class="content flex-center position-ref header text-font">
         <ul>
-            <li><NavLink to="/home">Home</NavLink></li>
-            <li><NavLink to="our-story">Our Story</NavLink></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="our-story">Our Story</Link></li>
             <li class="dropdown">
-                <NavLink to="ceremony-reception" class="dropbtn">Details</NavLink>
+                <Link to="ceremony-reception" class="dropbtn">Details</Link>
                 <div class="dropdown-content">
-                  <NavLink to="ceremony-reception">Ceremony & Reception</NavLink>
-                  <NavLink to="accomodations">Accomodations</NavLink>
-                  <NavLink to="travel">Travel & Transportation</NavLink>
-                  <NavLink to="rsvp">RSVP</NavLink>
+                  <Link to="ceremony-reception">Ceremony & Reception</Link>
+                  <Link to="accomodations">Accomodations</Link>
+                  <Link to="travel">Travel & Transportation</Link>
+                  <Link to="rsvp">RSVP</Link>
                 </div>
             </li>
-            <li><NavLink to="things-to-do">Things To Do</NavLink></li>
+            <li><Link to="things-to-do">Things To Do</Link></li>
         </ul>
       </div>
     );
