@@ -13,6 +13,7 @@ import SongRequests from "./SongRequests";
 import ThingsToDo from "./ThingsToDo";
 import Travel from "./Travel";
 import Header from "../components/Header";
+import PageNotFound from "./PageNotFound";
 
 const TransitionedPage = (WrappedComponent) => {
     const TransitionedComponent = (props) => (
@@ -33,7 +34,7 @@ export default class Layout extends React.Component {
     return (
       <div>
         <Header />
-        <div>
+        <Switch>
           <Route exact path='/' component={Login} />
           <Route path='/home' component={TransitionedPage(Home)} />
           <Route path='/our-story' component={TransitionedPage(OurStory)} />
@@ -43,7 +44,8 @@ export default class Layout extends React.Component {
           <Route path='/things-to-do' component={TransitionedPage(ThingsToDo)} />
           <Route path='/registry' component={TransitionedPage(Registry)} />
           <Route path='/rsvp' component={TransitionedPage(RSVP)} />
-        </div>
+          <Route component={TransitionedPage(PageNotFound)} />
+        </Switch>
         <Music />
       </div>
     );
