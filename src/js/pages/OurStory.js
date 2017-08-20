@@ -45,6 +45,24 @@ export default class OurStory extends React.Component {
           </div>
         </div>
       </div>
+
+      {/* Timeline...
+      <div class="flex-center">
+        <section id="cd-timeline">
+          <div class="cd-timeline-block">
+		        <div class="cd-timeline-img">
+			       <img src="../../images/us/jay_kid.jpg" class="rounded-image"/>
+		        </div>
+            <div class="cd-timeline-img">
+			       <img src="../../images/us/ang_kid.jpg" class="rounded-image"/>
+		        </div>
+            <div class="cd-timeline-img">
+			       <img src="../../images/us/ang_kid.jpg" class="rounded-image"/>
+		        </div>
+	        </div>
+        </section>
+      </div>*/}
+
       <div class="flex-center us-image"><img src="../../images/us/ang_kid.jpg" class="rounded-image"/></div>
       <div class="flex-center us-image"><img src="../../images/us/jay_kid.jpg" class="rounded-image"/></div>
       <div class="flex-center us-image"><img src="../../images/us/ang_grad.jpg" class="rounded-image"/></div>

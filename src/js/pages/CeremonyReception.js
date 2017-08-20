@@ -25,8 +25,8 @@ export default class CeremonyReception extends React.Component {
             </div>
           </div>
         </div>
-        <div class="flex-center">
-          <img src="../images/venue/foundry_ceremony_2.jpg" width="640" height="428"></img>
+        <div class="flex-center venue-image">
+          <img src="../images/venue/foundry_ceremony_2.jpg" class="rounded-image" width="640" height="428"></img>
         </div>
       </div>
     );
