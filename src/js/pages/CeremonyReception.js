@@ -11,7 +11,7 @@ export default class CeremonyReception extends React.Component {
   render() {
     return (
       <div>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref extra-margin-top">
           <div class="content curved-edges">
             <div class="content-padding text-width">
               <h1 class="center-text">Ceremony & Reception</h1>
@@ -25,8 +25,8 @@ export default class CeremonyReception extends React.Component {
             </div>
           </div>
         </div>
-        <div class="flex-center venue-image">
-          <img src="../images/venue/foundry_ceremony_2.jpg" class="rounded-image" width="640" height="428"></img>
+        <div class="flex-center image-margin">
+          <img src="../images/venue/foundry_ceremony_2.jpg" class="rounded-image"></img>
         </div>
       </div>
     );
