@@ -35,8 +35,8 @@ export default class OurStory extends React.Component {
             </p>
 
             <p>
-              Today, Angela and Jay live together in Roxbury, MA. Angela completed her Masters in Education in May of 2017 and is a middle school English
-              teacher in the Boston area. Jay is currently a Software Developer at Wayfair.
+              Today, Angela and Jay live together in Roxbury, MA. Angela completed her Masters in Education in May of 2017 and is a high school English
+              teacher at Pioneer Charter School of Science I. Jay is currently a Software Developer at Wayfair.
             </p>
 
             <p>
