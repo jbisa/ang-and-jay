@@ -52,8 +52,11 @@ export default class ThingsToDo extends React.Component {
                   </a>
                 </li>
                 <li class="list">
-                  <a class="content-link" href="https://www.guggenheim.org/" target="_blank">
-                    Guggenheim Museum
+                  <a class="content-link" href="https://www.guggenheim.org/" target="_blank">Guggenheim Museum</a>
+                </li>
+                <li class="list">
+                  <a class="content-link" href="https://www.tripadvisor.com/Attraction_Review-g60763-d519474-Reviews-The_High_Line-New_York_City_New_York.html" target="_blank">
+                    The High Line
                   </a>
                 </li>
               </ol>
