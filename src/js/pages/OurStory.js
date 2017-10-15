@@ -18,9 +18,9 @@ export default class OurStory extends React.Component {
     };
     return (
       <div>
-      <div class="flex-center position-ref extra-margin-top">
-        <div class="content curved-edges">
-          <div class="content-padding text-width">
+        <div class="flex-center position-ref extra-margin-top">
+          <div class="content curved-edges">
+            <div class="content-padding text-width">
             <h1>Our Story</h1>
             <p>
               Angela and Jay first met in 2009 at Worcester Polytechnic Institute through Angela's twin sister, Amelia.
@@ -30,7 +30,7 @@ export default class OurStory extends React.Component {
             <p>
               They started dating in 2013 while Angela was living in Brooklyn, NY and Jay was in Dorchester, MA. Despite the distance, they
               would each take turns making the commute to see each other every few weeks. New York City is a special place for them since they've
-              shared several significant memories there...like Jay getting to see a Red Sox vs. Yankees games at Yankee Stadium! Check out our <a href="#/things-to-do">Things
+              shared several significant memories there...like Jay getting to see a Red Sox vs. Yankees game at Yankee Stadium! Check out our <a href="#/things-to-do">Things
               To Do</a> section for places Angela and Jay visited that you may also enjoy.
             </p>
 
@@ -42,6 +42,19 @@ export default class OurStory extends React.Component {
             <p>
               #AngAndJayAllDay
             </p>
+            <br/>
+
+            <div class="flex-center image-margin"><img src="../../images/us/ang_grandfather.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/jay_grandfather.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/ang_kid_2.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/jay_kid.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/ang_grad.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/jay_ang_desi.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/proposal.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/ang_jay_wedding.JPG" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/venice.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/ca_wedding.jpg" class="rounded-image"/></div>
+            <div class="flex-center image-margin"><img src="../../images/us/yankee_stadium.jpg" class="rounded-image"/></div>
           </div>
         </div>
       </div>
@@ -62,18 +75,6 @@ export default class OurStory extends React.Component {
 	        </div>
         </section>
       </div>*/}
-
-      <div class="flex-center image-margin"><img src="../../images/us/ang_grandfather.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/jay_grandfather.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/ang_kid_2.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/jay_kid.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/ang_grad.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/jay_ang_desi.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/proposal.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/ang_jay_wedding.JPG" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/venice.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/ca_wedding.jpg" class="rounded-image"/></div>
-      <div class="flex-center image-margin"><img src="../../images/us/yankee_stadium.jpg" class="rounded-image"/></div>
       </div>
     );
   }
