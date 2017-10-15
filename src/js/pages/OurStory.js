@@ -55,6 +55,7 @@ export default class OurStory extends React.Component {
             <div class="flex-center image-margin"><img src="../../images/us/venice.jpg" class="rounded-image"/></div>
             <div class="flex-center image-margin"><img src="../../images/us/ca_wedding.jpg" class="rounded-image"/></div>
             <div class="flex-center image-margin"><img src="../../images/us/yankee_stadium.jpg" class="rounded-image"/></div>
+            <br/>
           </div>
         </div>
       </div>
