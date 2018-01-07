@@ -154,6 +154,7 @@ ul {
 
 li {
     float: left;
+    font-weight: bold;
 }
 
 li a, .dropbtn {

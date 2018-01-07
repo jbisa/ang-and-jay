@@ -9,13 +9,13 @@ export default class Countdown extends React.Component {
       hours: countdownData['hours'],
       minutes: countdownData['minutes'],
       seconds: countdownData['seconds'],
-      distance: new Date('April 7, 2018 16:00:00').getTime() - new Date().getTime()
+      distance: new Date('April 7, 2018 17:00:00').getTime() - new Date().getTime()
     }
   }
 
   getCountdownData() {
     const now = new Date().getTime();
-    const countDownDate = new Date('April 7, 2018 15:00:00').getTime();
+    const countDownDate = new Date('April 7, 2018 17:00:00').getTime();
     const distance = countDownDate - now;
     return {
       'now': now,
@@ -43,7 +43,7 @@ export default class Countdown extends React.Component {
           hours: countdownData['hours'],
           minutes: countdownData['minutes'],
           seconds: countdownData['seconds'],
-          distance: new Date('April 7, 2018 16:00:00').getTime() - new Date().getTime()
+          distance: new Date('April 7, 2018 17:00:00').getTime() - new Date().getTime()
         });
     }, 1000);
   }

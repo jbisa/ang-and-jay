@@ -68,7 +68,7 @@ export default class Accomodations extends React.Component {
 
             <br/>
             <p><b>CUT-OFF DATE:</b></p>
-            <p>The final reservation cut-off date for the Group is 5:00 PM EST on March 9, 2018. After the final cut-off date, all sleeping rooms/suites not reserved with individual guest names and guaranteed with a credit card will be released.
+            <p>The final reservation cut-off date for the Group is 5:00 PM EST on February 20, 2018. After the final cut-off date, all sleeping rooms/suites not reserved with individual guest names and guaranteed with a credit card will be released.
               The Roger will continue to accept reservations after the final cut-off date on an availability basis.</p>
 
             <br/>

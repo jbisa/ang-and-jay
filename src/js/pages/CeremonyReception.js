@@ -20,7 +20,7 @@ export default class CeremonyReception extends React.Component {
               <p>42-38 9th Street, Long Island City, NY 11101</p>
               <p>Saturday, April 7, 2018</p>
               <p>Attire: Formal</p>
-              <p>Ceremony: 3 pm</p>
+              <p>Ceremony: 5 pm</p>
               <br/>
               <div class="flex-center image-margin">
                 <img src="../images/venue/foundry_ceremony_2.jpg" class="rounded-image"></img>

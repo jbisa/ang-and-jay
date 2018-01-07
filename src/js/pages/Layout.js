@@ -43,7 +43,6 @@ export default class Layout extends React.Component {
           <Route path='/travel' component={TransitionedPage(Travel)} />
           <Route path='/things-to-do' component={TransitionedPage(ThingsToDo)} />
           <Route path='/registry' component={TransitionedPage(Registry)} />
-          <Route path='/rsvp' component={TransitionedPage(RSVP)} />
           <Route component={TransitionedPage(PageNotFound)} />
         </Switch>
         <Music />

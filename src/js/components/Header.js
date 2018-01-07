@@ -14,7 +14,6 @@ export default class Header extends React.Component {
                   <Link to="ceremony-reception">Ceremony & Reception</Link>
                   <Link to="accomodations">Accomodations</Link>
                   <Link to="travel">Travel & Transportation</Link>
-                  <Link to="rsvp">RSVP</Link>
                 </div>
             </li>
             <li><Link to="things-to-do">Things To Do</Link></li>
