@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class CeremonyReception extends React.Component {
+export default class NycCeremonyReception extends React.Component {
   constructor(props) {
     super(props);
     if (window.sessionStorage.getItem("codeEntered") !== "528926") {
@@ -15,8 +15,7 @@ export default class CeremonyReception extends React.Component {
           <div class="content curved-edges">
             <div class="content-padding text-width">
               <h1 class="center-text">Ceremony & Reception</h1>
-
-              <p>The Foundry</p>
+              <h2>- The Foundry -</h2>
               <p>42-38 9th Street, Long Island City, NY 11101</p>
               <p>Saturday, April 7, 2018</p>
               <p>Attire: Formal</p>

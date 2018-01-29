@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class ThingsToDo extends React.Component {
+export default class NycThingsToDo extends React.Component {
   constructor(props) {
     super(props);
     if (window.sessionStorage.getItem("codeEntered") !== "528926") {
